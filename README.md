@@ -4,9 +4,10 @@ Features my python image converter, which turns an input image into 2 byte hex a
 How to use?
 ---
 * ImageConverter.py
-1. With some tool of your choice, create a suitable picture for the Pico display (240x135 at max) with 128 colors for example. I'm using Aseprite myself.
-2. Run the ImageConverter.py with the image as parameter. For example 'Python ImageConverter.py botw128.png'. Output will be a python file with the image's name. botw128.py in my case
-3. Upload your image to Pico. I'm using Thonny with Windows.
+1. Install 'Open CV' for python as it will be used for reading the image data.
+2. With some tool of your choice, create a suitable picture for the Pico display (240x135 at max) with 128 colors for example. I'm using Aseprite myself.
+3. Run the ImageConverter.py with the image as parameter. For example 'Python ImageConverter.py botw128.png'. Output will be a python file with the image's name. botw128.py in my case
+4. Upload your image to Pico. I'm using Thonny with Windows.
 
 ---
 
